@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="body-container w-full h-[100vh] bg-[rgb(244,245,245)] flex justify-center items-center p-2">
+        <div id="calendar" class=" md:w-[420px] bg-[black] h-[450px] rounded-xl text-white overflow-hidden shadow-xl">
+            <div class="month h-[100px] flex flex-col items-center justify-center bg-[rgb(33,178,171)]">
+                <h1 id="month" class="text-2xl"></h1>
+                <div id="date"></div>
+            </div>
+            <div id="days" class="grid grid-cols-7 p-2 mb-5">
+
+            </div>
+            <div id="dates" class="grid grid-cols-7"> </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
