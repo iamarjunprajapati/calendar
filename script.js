@@ -33,7 +33,7 @@ for (let i = 0; i < firstDay; i++) {
 }
 
 
-for (let index = 1; index < totalDaysInMonth; index++) {
+for (let index = 1; index <= totalDaysInMonth; index++) {
     calendar.push(index);
 }
 
